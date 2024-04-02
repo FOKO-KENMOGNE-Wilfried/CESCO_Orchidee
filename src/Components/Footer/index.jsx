@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.jpg";
-
+import mail from "../../assets/images/mail.svg";
+import phone from "../../assets/images/phone.svg";
 
 function Footer(){
 
@@ -25,16 +26,18 @@ function Footer(){
                     <p>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, brconsectetur?</p>
                     <div className="flex flex-col gap-4">
                         <div className="flex items-center gap-4">
-                            <img src="" alt="phone" />
+                            <img src={phone} alt="phone" className="w-10 h-10" />
                             <div>
                                 <p>+237 699887088</p>
                                 <p>+237 677003892</p>
                             </div>
                         </div>
-                        <div className="flex gap-4 items-center">
-                            <img src="" alt="mail" />
-                            <p>email@email.com</p>
-                        </div>
+                            <a href="mailto:email@gmail.com">
+                                <div className="flex gap-4 items-center">
+                                    <img src={mail} alt="mail" className="w-10 h-10" />
+                                    <p>email@email.com</p>
+                                </div>
+                            </a>
                     </div>
                 </div>
             </div>

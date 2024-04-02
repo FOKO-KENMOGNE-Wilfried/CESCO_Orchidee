@@ -11,7 +11,7 @@ function Header(){
                     <p className=" font-bold text-2xl">CESCO</p>
                 </div>
 
-                <div className=" flex gap-10 screen2:flex-col screen2:items-center">
+                <div className=" flex gap-8 screen2:flex-col screen2:items-center">
                     <Link to={"/"} className=" hover:text-yellow-400">Accueil</Link>
                     <Link to={"/about"} className=" hover:text-yellow-400">A propos</Link>
                     <Link to={"/contact_us"} className=" hover:text-yellow-400">Contactez-nous</Link>
