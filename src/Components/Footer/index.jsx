@@ -6,7 +6,7 @@ import phone from "../../assets/images/phone.svg";
 function Footer(){
 
     return(
-        <div className=" flex flex-col gap-10 items-center w-full footer1:text-sm">
+        <div className="border flex flex-col gap-10 pt-8 items-center w-full footer1:text-sm">
             <div className="flex w-full justify-around screen2:flex-col screen2:items-center screen2:gap-8">
                 <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-2 screen2:flex-col">

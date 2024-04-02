@@ -4,8 +4,8 @@ import logo from "../../assets/logo/logo.jpg";
 function Header(){
 
     return(
-        <div className=" flex justify-center mt-8">
-            <div className=" flex justify-between border-2 w-11/12 items-center p-4 rounded-lg screen1:text-sm screen2:flex-col screen2:gap-10">
+        <div className=" flex justify-center">
+            <div className=" flex justify-between bg-white mt-16 w-11/12 items-center p-4 rounded-lg screen1:text-sm screen2:flex-col screen2:gap-10 absolute">
                 <div className=" flex gap-2 items-center screen2:flex-col screen2:justify-center">
                     <img src={logo} alt="logo" className=" w-16 h-16" />
                     <p className=" font-bold text-2xl">CESCO</p>
