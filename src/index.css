@@ -562,8 +562,20 @@ video {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-16 {
   height: 4rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-11\/12 {
@@ -572,6 +584,14 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -598,16 +618,33 @@ video {
   gap: 0.5rem;
 }
 
-.gap-96 {
-  gap: 24rem;
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-primary {
@@ -623,9 +660,26 @@ video {
   padding: 1rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -640,4 +694,70 @@ video {
 .hover\:text-yellow-400:hover {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+@media (max-width: 785px) {
+  .screen1\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 679px) {
+  .screen2\:flex-col {
+    flex-direction: column;
+  }
+
+  .screen2\:items-center {
+    align-items: center;
+  }
+
+  .screen2\:justify-center {
+    justify-content: center;
+  }
+
+  .screen2\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .screen2\:gap-8 {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer1\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 387px) {
+  .footer2\:flex-col {
+    flex-direction: column;
+  }
+
+  .footer2\:border {
+    border-width: 1px;
+  }
+
+  .footer2\:border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .footer2\:border-t-2 {
+    border-top-width: 2px;
+  }
+
+  .footer2\:border-l-0 {
+    border-left-width: 0px;
+  }
+
+  .footer2\:border-none {
+    border-style: none;
+  }
+
+  .footer2\:pt-4 {
+    padding-top: 1rem;
+  }
 }

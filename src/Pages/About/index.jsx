@@ -3,7 +3,7 @@
 function About(){
 
     return(
-        <div>
+        <div className="border h-screen">
             About
         </div>
     )

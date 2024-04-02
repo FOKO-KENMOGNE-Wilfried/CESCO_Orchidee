@@ -3,7 +3,7 @@
 function Contact_us(){
 
     return(
-        <div>
+        <div className="border h-screen">
             Contact_us
         </div>
     )
