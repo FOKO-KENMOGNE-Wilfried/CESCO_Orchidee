@@ -16,7 +16,7 @@ function Footer(){
                     <p>Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit. <br /> Nobis, rerum.</p>
                 </div>
                 <div className="flex flex-col gap-8 items-center">
-                    <h1 className="text-2xl font-bold">Liens Rapide</h1>
+                    <h1 className="text-2xl font-bold">Liens Rapides</h1>
                     <Link to={"/"}>Accueil</Link>
                     <Link to={"/about"}>A propos</Link>
                     <Link to={"/contact_us"}>Contactez-nous</Link>
