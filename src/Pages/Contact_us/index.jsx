@@ -35,6 +35,7 @@ function Contact_us(){
                     </div>
 
                 </div>
+
                 <div className="screen1:text-center">
                     <h1 className="font-bold pb-4 text-2xl mt-4">Des questions ? Ecrivez-nous</h1>
                     <form action="" className="flex flex-col gap-2 w-full screen1:pl-4 pr-4">
@@ -53,6 +54,12 @@ function Contact_us(){
                             <input type="submit" value="Envoyer" />
                         </div>
                     </form>
+                </div>
+
+                <div className=" w-full flex justify-center items-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.9814578921055!2d9.76196607616387!3d4.024191495949552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610d0055242ebf%3A0xdfc0468e219fa655!2sCentre%20Hospitalier%20CESCO!5e0!3m2!1sen!2scm!4v1715457761128!5m2!1sen!2scm" width="80%" height="600" style={{border:0}} onTouchStart={(e) => {
+                        e.preventDefault();
+                    }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>

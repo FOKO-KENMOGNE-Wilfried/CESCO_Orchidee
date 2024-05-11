@@ -18,7 +18,7 @@ function About(){
                         <h1 className="text-3xl font-bold text-center">Qui sommes nous ?</h1>
                         <div className="border-primary border-2 h-0 w-32 mt-4"></div>
                     </div>
-                    <div className="flex gap-16 justify-center items-center flex-wrap-reverse">
+                    <div className="flex gap-16 justify-between items-center flex-wrap-reverse">
                         <p className="w-96">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae omnis fugit veniam, architecto tempore debitis vitae eos repellendus, esse excepturi numquam veritatis eligendi quisquam in. Quidem dicta eos voluptas nam. Omnis quam at nisi maiores quidem delectus laboriosam eveniet obcaecati.</p>
                         <img className="w-96 rounded-md" src={bg} alt="" />
                     </div>
