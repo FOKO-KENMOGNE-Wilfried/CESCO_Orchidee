@@ -24,7 +24,7 @@ function Home(){
                 </div>
 
                 <div className="w-9/12 flex flex-wrap lg:flex-nowrap justify-center lg:justify-between gap-20">
-                    <img className="w-96" src={exp} alt="image" />
+                    <img className="w-96 rounded-md" src={exp} alt="image" />
                     <div className="flex flex-col justify-between items-start gap-8">
                         <h1 className="text-3xl font-bold text-center sm:text-left">De nombreuses annees d'experiences</h1>
                         <p className="text-center sm:text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi! Doloribus voluptatibus ipsa ab illo reiciendis, obcaecati asperiores nesciunt tenetur!</p>
