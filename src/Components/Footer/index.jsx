@@ -23,7 +23,7 @@ function Footer(){
                 </div>
                 <div className="flex flex-col gap-4 screen2:items-center">
                     <h1 className="pb-4 text-2xl font-bold">Contacts</h1>
-                    <p>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, brconsectetur?</p>
+                    <p>En cas de soucis vous <br /> pouvez nous contactez, <br /> nous serons a votre ecoute</p>
                     <div className="flex flex-col gap-4">
                         <div className="flex items-center gap-4">
                             <img src={phone} alt="phone" className="w-10 h-10" />

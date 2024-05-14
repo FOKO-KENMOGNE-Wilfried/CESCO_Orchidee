@@ -31,9 +31,9 @@ function About(){
                     </div>
                     <div className="flex gap-16 justify-center items-center flex-wrap">
                         
-                        <Card info1={"Ouvert 24h/24 et 7j/7"} info2={"Nous sommes ouverts et a votre ecoute en permanace"} bg={bg} />
-                        <Card info1={"Une medecine de qualite"} info2={"Nous disposons de medecins talentueux et agueris"} bg={bg} />
-                        <Card info1={"Ouvert 24h/24 et 7j/7"} info2={"Nous sommes ouverts et a votre ecoute en permanace"} bg={bg} />
+                        <Card info1={"Mr KENMOGNE Justin"} info2={"Medecin Generaliste Diplome d'Etat"} bg={""} />
+                        <Card info1={""} info2={""} bg={""} />
+                        <Card info1={""} info2={""} bg={""} />
 
                     </div>
                 </div>

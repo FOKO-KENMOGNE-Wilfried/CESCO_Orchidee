@@ -18,7 +18,7 @@ module.exports = {
         "footer2": { "max": "387px" },
       },
       spacing: {
-        'head': '550px',
+        'head': '650px',
         'card': "500px",
         'cardres': "400px",
         'form': "650px"
