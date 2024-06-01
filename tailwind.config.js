@@ -13,6 +13,7 @@ module.exports = {
       screens: {
         "screen1": { "max": "785px" },
         "formres": { "max": "700px" },
+        "contact": { "max": "500px" },
         "screen2": { "max": "679px" },
         "footer1": { "max": "1024px" },
         "footer2": { "max": "387px" },

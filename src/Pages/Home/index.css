@@ -5,3 +5,18 @@
 .contain{
     border-radius: 10% / 50%;
 }
+
+.effect{
+    transition: all .3s ease-out;
+}
+
+.services:hover .effect{
+    height: 100%;
+}
+
+.info_container{
+    transition: all .3s ease-out;
+}
+.services:hover .info_container{
+    color: white;
+}

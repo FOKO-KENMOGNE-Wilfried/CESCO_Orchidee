@@ -16,15 +16,15 @@ function Contact_us(){
 
                     <div className="flex flex-col gap-2">
                         <h1 className="font-bold mb-4 text-2xl">Localisation</h1>
-                        <div className="flex gap-4 items-center">
+                        <div className="flex gap-4 items-center contact:flex-col contact:pt-8">
                             <img src={position} alt="location" className="w-10 h-10 -ml-2" />
                             <p>NODGPASSI II - Bon-Blanc</p>
                         </div>
-                        <div className="flex gap-4 items-center">
+                        <div className="flex gap-4 items-center contact:flex-col contact:pt-8">
                             <img src={mail} alt="email"  className="w-7 h-7" />
                             <p>email@gmail.com</p>
                         </div>
-                        <div className="flex gap-4 items-center">
+                        <div className="flex gap-4 items-center contact:flex-col contact:pt-8">
                             <img src={number} alt="number" className="w-7 h-7" />
                             <p>+237 699887088 / +237 677003892</p>
                         </div>
@@ -36,7 +36,7 @@ function Contact_us(){
 
                 </div>
 
-                <div className="screen1:text-center">
+                <div className="screen1:text-center flex flex-col items-center px-8">
                     <h1 className="font-bold pb-4 text-2xl mt-4">Des questions ? Ecrivez-nous</h1>
                     <form action="" className="flex flex-col gap-2 w-full screen1:pl-4 pr-4">
                         <div className="flex gap-2 flex-wrap sm:flex-nowrap">
