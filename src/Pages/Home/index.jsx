@@ -26,7 +26,7 @@ function Home(){
             </div>
             <div className="w-full p-10 flex flex-col gap-32 justify-center items-center -mt-32">
 
-                <div className="py-6 flex justify-center items-center gap-8 flex-wrap w-9/12 formres:w-full px-10 border border-gray-400 rounded-md bg-white">
+                <div className="py-6 flex justify-center items-center gap-8 flex-wrap w-11/12 formres:w-full px-10 border border-gray-400 rounded-md bg-white">
 
                     <Card info1={"Ouvert 24h/24 et 7j/7"} info2={"Nous sommes ouverts et a votre ecoute en permanace"} bg={bg} />
                     <Card info1={"Une medecine de qualite"} info2={"Nous disposons de medecins talentueux et agueris"} bg={bg} />
@@ -38,7 +38,7 @@ function Home(){
                     <img className="w-96 rounded-md" src={exp} alt="image" />
                     <div className="flex flex-col justify-between items-start gap-8">
                         <h1 className="text-3xl font-bold text-center sm:text-left">De nombreuses annees d'experiences</h1>
-                        <p className="text-center sm:text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi! Doloribus voluptatibus ipsa ab illo reiciendis, obcaecati asperiores nesciunt tenetur!</p>
+                        <p className="text-center sm:text-left">Nous disposons de methodologies solides acquises au fils des annees ce qui assure un suivi et un traitement efficace de nos patients </p>
                         <div className=" bg-primary text-white p-2 rounded-lg font-bold text-center flex justify-center items-center w-full sm:w-fit">
                             <NavLink to={"/about"}>A propos de nous</NavLink>
                         </div>

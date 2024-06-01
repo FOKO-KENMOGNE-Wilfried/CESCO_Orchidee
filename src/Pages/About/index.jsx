@@ -19,7 +19,7 @@ function About(){
                         <div className="border-primary border-2 h-0 w-32 mt-4"></div>
                     </div>
                     <div className="flex gap-16 justify-center items-center flex-wrap-reverse">
-                        <p className="w-96">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae omnis fugit veniam, architecto tempore debitis vitae eos repellendus, esse excepturi numquam veritatis eligendi quisquam in. Quidem dicta eos voluptas nam. Omnis quam at nisi maiores quidem delectus laboriosam eveniet obcaecati.</p>
+                        <p className="w-96">Le centre de sante communautaire l'orchidee est une structure fonde en XXXX. Elle est situe au environs de Ndogpassi 2 plus precisement au carefour Bon Blanc et a pour but premier est de garantir le bien etre physique et mental de la population </p>
                         <img className="w-96 rounded-md" src={bg} alt="" />
                     </div>
                 </div>
